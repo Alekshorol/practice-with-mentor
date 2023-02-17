@@ -101,14 +101,14 @@
 
 //Добавь метод getInfo(), который возвращает строку:
 //`Пользователю ${} ${} лет и у него ${} публикаций.`
-const User = function ({ userName, age, numberOfPost }) {
-  this.userName = userName;
-  this.age = age;
-  this.numberOfPost = numberOfPost;
-};
-User.prototype.getInfo = function () {
-  return `Пользователю ${this.userName} ${this.age} лет и у него ${this.numberOfPost} публикаций.`;
-};
-console.log(
-  new User({ userName: "Mango", age: 19, numberOfPost: 200 }).getInfo()
-);
+// const User = function ({ userName, age, numberOfPost }) {
+//   this.userName = userName;
+//   this.age = age;
+//   this.numberOfPost = numberOfPost;
+// };
+// User.prototype.getInfo = function () {
+//   return `Пользователю ${this.userName} ${this.age} лет и у него ${this.numberOfPost} публикаций.`;
+// };
+// console.log(
+//   new User({ userName: "Mango", age: 19, numberOfPost: 200 }).getInfo()
+// );
